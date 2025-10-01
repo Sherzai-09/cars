@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CarZone - Explore Cars</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Basic styling directly included for demo purposes */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('car-hero.jpg') no-repeat center center/cover;
+      height: 400px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    .section {
+      padding: 2rem;
+      background-color: white;
+      margin-bottom: 1rem;
+    }
+    .footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">🚗 CarZone</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Cars</a>
+      <a href="#">Brands</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Discover Your Next Car</h1>
+    <p>Find the best cars, reviews, and deals</p>
+  </section>
+
+  <section class="section" id="featured-cars">
+    <h2>Featured Cars</h2>
+    <p>Explore top-rated and trending cars this month.</p>
+    <!-- Add car cards here -->
+  </section>
+
+  <section class="section" id="top-brands">
+    <h2>Top Brands</h2>
+    <p>Browse vehicles from trusted car manufacturers.</p>
+    <!-- Add brand logos or info here -->
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>CarZone is your go-to destination for everything cars — whether you're buying, researching, or just browsing.</p>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 CarZone. All rights reserved.</p>
+  </footer>
+</body>
+</html>
 
